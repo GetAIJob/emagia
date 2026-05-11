@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 export default function FinalCTA() {
@@ -40,8 +41,8 @@ export default function FinalCTA() {
           </p>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-3 relative z-10">
-            <a
-              href="mailto:hello@emagia.com?subject=Strategy%20Call%20—%20DSO%20Impact"
+            <Link
+              to="/contact"
               className="group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-semibold text-ink"
               style={{
                 background:
@@ -57,13 +58,13 @@ export default function FinalCTA() {
               >
                 →
               </span>
-            </a>
-            <a
-              href="#agents"
+            </Link>
+            <Link
+              to="/products/gia"
               className="inline-flex items-center justify-center gap-2 rounded-full glass px-6 py-3.5 text-[15px] font-medium text-white hover:bg-white/[0.08] transition-colors"
             >
-              Watch Product Tour
-            </a>
+              Explore the Gia Platform
+            </Link>
           </div>
 
           <ul className="mt-10 pt-8 border-t border-line grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10 text-[13.5px] text-soft">

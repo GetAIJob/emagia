@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 const fmt0 = (n: number) =>
@@ -117,8 +118,8 @@ export default function ROICalculator() {
             </div>
 
             <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:items-center">
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[14.5px] font-semibold text-ink"
                 style={{
                   background:
@@ -129,7 +130,7 @@ export default function ROICalculator() {
               >
                 Get this benchmark against your real data
                 <span aria-hidden="true">→</span>
-              </a>
+              </Link>
               <p className="text-[12.5px] text-muted">
                 Numbers are directional. Bookings produce a tailored proof in
                 under a week.

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 const reveal = {
@@ -79,8 +80,8 @@ export default function Hero() {
               custom={3}
               className="mt-9 flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
             >
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 className="group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-semibold text-ink"
                 style={{
                   background:
@@ -96,7 +97,7 @@ export default function Hero() {
                 >
                   →
                 </span>
-              </a>
+              </Link>
               <a
                 href="#calculator"
                 className="inline-flex items-center justify-center gap-2 rounded-full glass px-6 py-3.5 text-[15px] font-medium text-white hover:bg-white/[0.08] transition-colors"
