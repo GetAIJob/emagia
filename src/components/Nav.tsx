@@ -35,20 +35,24 @@ export default function Nav() {
     >
       <nav
         aria-label="Primary"
-        className="mx-auto max-w-7xl px-6 lg:px-10 h-16 flex items-center justify-between"
+        className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between"
       >
         <Link
           to="/"
-          className="flex items-center gap-2.5 text-white font-semibold tracking-tight"
+          className="flex items-center gap-3 text-white font-semibold tracking-tight"
+          aria-label="Emagia — home"
         >
           <span
-            className="inline-flex h-7 w-7 items-center justify-center rounded-md text-ink font-bold text-sm"
-            style={{ background: 'linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%)' }}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-ink font-bold text-[18px]"
+            style={{
+              background: 'linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%)',
+              boxShadow: '0 8px 24px -10px rgba(34, 211, 238, 0.55)',
+            }}
             aria-hidden="true"
           >
             ε
           </span>
-          <span className="text-[17px]">Emagia</span>
+          <span className="text-[21px] tracking-[-0.01em]">Emagia</span>
         </Link>
 
         <ul className="hidden lg:flex items-center gap-7 text-[14px] text-soft">

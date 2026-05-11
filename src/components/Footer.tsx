@@ -35,10 +35,17 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-12">
           <div className="lg:col-span-4">
-            <Link to="/" className="flex items-center gap-2.5 text-white font-semibold tracking-tight text-[18px]">
+            <Link
+              to="/"
+              className="flex items-center gap-3.5 text-white font-semibold tracking-tight text-[24px]"
+              aria-label="Emagia — home"
+            >
               <span
-                className="inline-flex h-7 w-7 items-center justify-center rounded-md text-ink font-bold text-sm"
-                style={{ background: 'linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%)' }}
+                className="inline-flex h-12 w-12 items-center justify-center rounded-xl text-ink font-bold text-[22px]"
+                style={{
+                  background: 'linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%)',
+                  boxShadow: '0 10px 30px -10px rgba(34, 211, 238, 0.55)',
+                }}
                 aria-hidden="true"
               >
                 ε
@@ -49,12 +56,22 @@ export default function Footer() {
               Emagia is the enterprise autonomous-finance platform behind Fortune-500 Order-to-Cash transformations. AI agents that measurably move DSO, free working capital, and let finance teams scale without hiring.
             </p>
 
-            <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-[13px] text-muted">
-              <span>HQ — Santa Clara, California</span>
-              <a href="mailto:hello@emagia.com" className="hover:text-white transition-colors">
-                hello@emagia.com
-              </a>
-            </div>
+            <address className="mt-6 not-italic text-[13px] text-muted leading-[1.7]">
+              <p className="text-soft text-[12px] uppercase tracking-[0.18em] font-medium mb-2">
+                Global Headquarters
+              </p>
+              <p className="text-white text-[14px] font-medium">Emagia Corporation</p>
+              <p>
+                4701 Patrick Henry Dr.<br />
+                Building 20, Santa Clara, CA 95054<br />
+                United States
+              </p>
+              <p className="mt-3">
+                <a href="mailto:hello@emagia.com" className="hover:text-white transition-colors">
+                  hello@emagia.com
+                </a>
+              </p>
+            </address>
 
             <ul className="mt-6 flex items-center gap-3" aria-label="Social media">
               {FOOTER_SOCIAL.map((s) => (

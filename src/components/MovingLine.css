@@ -1,0 +1,39 @@
+/* CSS-only infinitely moving line — pattern requested by client.
+   The navy variant follows the spec exactly (background-color #070d20).
+   The cyan variant adds a glow trail so the motion reads on the dark
+   page background. Both honor prefers-reduced-motion. */
+
+.moving-line-band .line {
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: moveLine;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.line.line--navy {
+  background-color: #070d20;
+  box-shadow: 0 0 0 1px rgba(148, 184, 220, 0.10);
+}
+
+.line.line--cyan {
+  background-color: #22d3ee;
+  box-shadow:
+    0 0 12px rgba(34, 211, 238, 0.55),
+    0 0 28px rgba(34, 211, 238, 0.25);
+}
+
+@keyframes moveLine {
+  0%   { transform: translateX(-150px); }
+  100% { transform: translateX(calc(100vw + 150px)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moving-line-band .line {
+    animation: none;
+    opacity: 0 !important;
+  }
+}
