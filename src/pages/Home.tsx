@@ -4,7 +4,6 @@ import GiaAgents from '@/components/GiaAgents'
 import ROICalculator from '@/components/ROICalculator'
 import EnterpriseNarrative from '@/components/EnterpriseNarrative'
 import FinalCTA from '@/components/FinalCTA'
-import MovingLine from '@/components/MovingLine'
 import VisitUs from '@/components/VisitUs'
 import { useSeo } from '@/lib/useSeo'
 
@@ -32,12 +31,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <MovingLine variant="cyan" count={5} height={56} label="Live AR data stream" />
       <ProofBar />
       <GiaAgents />
       <ROICalculator />
       <EnterpriseNarrative />
-      <MovingLine variant="navy" count={6} height={48} label="Workflow signal band" />
       <VisitUs />
       <FinalCTA />
     </>
