@@ -1,0 +1,101 @@
+/* Infinite customer-logo marquee — Emagia reference (screen 7.jpg).
+   Track holds two copies of the logo set; translateX(-50%) lands at
+   the start of the duplicate set, so the loop is seamless.
+   Pauses on hover/focus for accessibility. */
+
+.logo-marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.5rem 0;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+}
+
+.logo-marquee__track {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  width: max-content;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  animation: logoMarquee 38s linear infinite;
+  will-change: transform;
+}
+
+.logo-marquee:hover .logo-marquee__track,
+.logo-marquee:focus-within .logo-marquee__track {
+  animation-play-state: paused;
+}
+
+.logo-marquee__item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+}
+
+.logo-marquee__img {
+  display: block;
+  max-height: 28px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.6;
+  transition: opacity 220ms ease;
+}
+
+.logo-marquee__item:hover .logo-marquee__img {
+  opacity: 1;
+}
+
+.logo-marquee__edge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.logo-marquee__edge--left {
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 11, 26, 0.95) 0%,
+    rgba(5, 11, 26, 0) 100%
+  );
+}
+
+.logo-marquee__edge--right {
+  right: 0;
+  background: linear-gradient(
+    -90deg,
+    rgba(5, 11, 26, 0.95) 0%,
+    rgba(5, 11, 26, 0) 100%
+  );
+}
+
+@keyframes logoMarquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee__track {
+    animation: none;
+  }
+}

@@ -1,29 +1,10 @@
 import { motion } from 'framer-motion'
-
-import staples from '@/assets/logos/staples.svg'
-import cognizant from '@/assets/logos/cognizant.svg'
-import convatec from '@/assets/logos/convatec.svg'
-import coopervision from '@/assets/logos/coopervision.svg'
-import honestCo from '@/assets/logos/honest-company.svg'
-import xylem from '@/assets/logos/xylem.svg'
-import wns from '@/assets/logos/wns.svg'
-import seko from '@/assets/logos/seko.svg'
+import LogoMarquee from './LogoMarquee'
 
 const kpis = [
   { value: '$8B+', label: 'AR processed annually' },
   { value: '14 days', label: 'Average DSO reduction' },
   { value: '98%', label: 'Cash application automated' },
-]
-
-const logos = [
-  { src: staples, alt: 'Staples — Emagia customer' },
-  { src: cognizant, alt: 'Cognizant — Emagia customer' },
-  { src: convatec, alt: 'ConvaTec — Emagia customer' },
-  { src: honestCo, alt: 'The Honest Company — Emagia customer' },
-  { src: xylem, alt: 'Xylem — Emagia customer' },
-  { src: coopervision, alt: 'CooperVision — Emagia customer' },
-  { src: wns, alt: 'WNS — Emagia customer' },
-  { src: seko, alt: 'Seko Logistics — Emagia customer' },
 ]
 
 const fade = {
@@ -64,27 +45,17 @@ export default function ProofBar() {
         </ul>
 
         <figure className="mt-14">
-          <figcaption className="text-[12.5px] uppercase tracking-[0.18em] text-muted text-center">
-            Trusted by global finance teams
+          <figcaption className="text-center">
+            <span className="block text-[12.5px] uppercase tracking-[0.18em] text-muted font-medium">
+              Trusted by global businesses
+            </span>
+            <span className="mt-2 block serif text-white text-[22px] sm:text-[26px] leading-tight">
+              The world’s leading companies choose Emagia
+            </span>
           </figcaption>
-          <ul
-            aria-label="Selected Emagia customers"
-            className="mt-7 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-x-6 gap-y-7 items-center"
-          >
-            {logos.map((l) => (
-              <li key={l.alt} className="flex items-center justify-center">
-                <img
-                  src={l.src}
-                  alt={l.alt}
-                  loading="lazy"
-                  width="120"
-                  height="32"
-                  className="max-h-7 w-auto opacity-65 hover:opacity-100 transition-opacity"
-                  style={{ filter: 'brightness(0) invert(1)' }}
-                />
-              </li>
-            ))}
-          </ul>
+          <div className="mt-9">
+            <LogoMarquee />
+          </div>
         </figure>
 
         <motion.figure
