@@ -67,8 +67,8 @@ export default function Footer() {
                 United States
               </p>
               <p className="mt-3">
-                <a href="mailto:hello@emagia.com" className="hover:text-white transition-colors">
-                  hello@emagia.com
+                <a href="mailto:info@risesitelab.com" className="hover:text-white transition-colors">
+                  info@risesitelab.com
                 </a>
               </p>
             </address>
@@ -125,6 +125,12 @@ export default function Footer() {
             </a>
           </p>
         </div>
+        <p style={{textAlign:'center',marginTop:'1rem',fontSize:'0.78rem',opacity:0.5,color:'inherit'}}>
+          Built by{' '}
+          <a href="https://risesitelab.com/" target="_blank" rel="noopener noreferrer" style={{color:'inherit',textDecoration:'underline'}}>
+            GrowthSite Lab
+          </a>
+        </p>
       </div>
     </footer>
   )

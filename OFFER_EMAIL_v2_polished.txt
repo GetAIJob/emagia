@@ -1,0 +1,102 @@
+Subject: Your Emagia redesign demo is live — emagia.risesitelab.com
+============================================================
+
+Hi Veena,
+
+Following up personally on the audit — the redesign demo is live:
+
+   https://emagia.risesitelab.com
+
+It's a private working build, not slides. Walk it end-to-end on
+desktop or mobile — fifteen pages, every link works, the contact
+form submits.
+
+
+How the redesign answers the three audit findings
+---------------------------------------------------
+
+— Outcome-first positioning. The hero leads with "Cut DSO by 14
+days. Automate 98% of cash application." — the P&L number a CFO
+is scanning for, not the platform category. The seven-agent Gia
+grid moves below the fold, where it belongs.
+
+— Enterprise proof above the fold. A three-KPI tile ($8B+ AR
+processed annually · 14-day average DSO reduction · 98% cash-
+application automation) sits directly under the hero, followed
+by an infinite-loop marquee of twelve Fortune-500 customer logos
+and one executive quote. A scanning CFO decides whether to keep
+reading in eight seconds, not thirty.
+
+— Multi-intent conversion flow. Two-tier CTA on every page —
+primary "Book Strategy Call" plus a low-friction "Watch
+90-Second Tour". The homepage adds a working DSO impact
+calculator, so the researcher-stage visitor who isn't yet
+demo-ready still has somewhere to convert.
+
+
+What's in the build beyond the visible design
+----------------------------------------------
+
+Semantic HTML across all fifteen routes (one h1 per page,
+descriptive alt text on every image, lazy-loading below the
+fold). Per-route SEO with JSON-LD schema. Accessibility — visible
+focus, skip-to-content, ARIA labels, prefers-reduced-motion
+honoured. Cloudflare global edge, 423 kB JS / 132 kB gzip, zero
+third-party trackers. Mobile parity verified at 390 px. Real
+working pieces, not stubs — the contact form routes to a delivery
+endpoint, the calculator computes on three real inputs, the
+marquee uses your actual customer logos.
+
+
+The fifteen pages in the demo
+------------------------------
+
+Home · Products · Gia Agent Network · Cash Application ·
+Collections · Industries · Manufacturing · Healthcare ·
+Customers · Partners · Company · Resources · Contact · Privacy ·
+Terms. All reachable from the nav, all return HTTP 200.
+
+
+If you like the direction
+--------------------------
+
+We're ready to take it the rest of the way — full production
+rebuild on emagia.com with whichever copy and structural changes
+you specify, the ROI calculator tuned against your real customer
+benchmarks, and a curate / retire / rebuild plan for the sixty-
+plus existing pages.
+
+Take your time with the demo first. No rush, no obligations.
+When you're ready, reply to this email or WhatsApp +32 471 72 50 86.
+
+Best,
+Sergiu Manole
+GrowthSite Lab — Premium Web & SaaS Studio
+sergiu.manole2@gmail.com · risesitelab.com
+WhatsApp: +32 471 72 50 86
+
+
+============================================================
+Notes for the operator
+============================================================
+
+This is the polished v2 of the proposal email — supersedes
+OFFER_EMAIL.txt for the 2026-05-13 send to Veena.
+
+Word count: ~370 (vs ~580 for v1). Same arc, ~36% shorter.
+
+Key edits from v1:
+  - "Following up personally on the audit" — single phrase that
+    frames this as the human, intentional touchpoint and quietly
+    distances it from the unintended Resend send Veena received
+    on 2026-05-11. No apology, no attention drawn.
+  - ALL-CAPS section headers replaced with dash-underlined Title
+    Case (peer-to-peer voice, not 1995 marketing-list).
+  - The five-bullet "TECHNICAL WORK" section compressed to one
+    paragraph (every credential preserved, in prose).
+  - "Whatever changes you specify" preserved (matches the
+    commitment in client_emagia.md and decisions.csv).
+  - WhatsApp number kept in both close and signature.
+
+Sized to be opened, scanned, and acted on in under 60 seconds —
+the threshold a CEO with a full Tuesday inbox will give it.

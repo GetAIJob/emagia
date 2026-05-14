@@ -56,11 +56,11 @@ export default function Contact() {
         ;(e.target as HTMLFormElement).reset()
       } else {
         setStatus('error')
-        setErrorMsg(json.message || 'Something went wrong. Please try again or email hello@emagia.com.')
+        setErrorMsg(json.message || 'Something went wrong. Please try again or email info@risesitelab.com.')
       }
     } catch {
       setStatus('error')
-      setErrorMsg('Network error. Please retry, or email hello@emagia.com directly.')
+      setErrorMsg('Network error. Please retry, or email info@risesitelab.com directly.')
     }
   }
 
@@ -89,8 +89,8 @@ export default function Contact() {
               <ul className="mt-5 space-y-4 text-[14px] text-soft">
                 <li>
                   <p className="text-muted text-[12px]">Email</p>
-                  <a href="mailto:hello@emagia.com" className="hover:text-cyan transition-colors">
-                    hello@emagia.com
+                  <a href="mailto:info@risesitelab.com" className="hover:text-cyan transition-colors">
+                    info@risesitelab.com
                   </a>
                 </li>
                 <li>
@@ -103,14 +103,14 @@ export default function Contact() {
                 </li>
                 <li>
                   <p className="text-muted text-[12px]">Press inquiries</p>
-                  <a href="mailto:press@emagia.com" className="hover:text-cyan transition-colors">
-                    press@emagia.com
+                  <a href="mailto:info@risesitelab.com" className="hover:text-cyan transition-colors">
+                    info@risesitelab.com
                   </a>
                 </li>
                 <li>
                   <p className="text-muted text-[12px]">Partner inquiries</p>
-                  <a href="mailto:alliances@emagia.com" className="hover:text-cyan transition-colors">
-                    alliances@emagia.com
+                  <a href="mailto:info@risesitelab.com" className="hover:text-cyan transition-colors">
+                    info@risesitelab.com
                   </a>
                 </li>
               </ul>

@@ -68,20 +68,20 @@ export default function VisitUs() {
                   <ul className="mt-4 space-y-4 text-[14.5px] text-soft">
                     <li>
                       <p className="text-muted text-[12px]">General</p>
-                      <a href="mailto:hello@emagia.com" className="hover:text-cyan transition-colors">
-                        hello@emagia.com
+                      <a href="mailto:info@risesitelab.com" className="hover:text-cyan transition-colors">
+                        info@risesitelab.com
                       </a>
                     </li>
                     <li>
                       <p className="text-muted text-[12px]">Press</p>
-                      <a href="mailto:press@emagia.com" className="hover:text-cyan transition-colors">
-                        press@emagia.com
+                      <a href="mailto:info@risesitelab.com" className="hover:text-cyan transition-colors">
+                        info@risesitelab.com
                       </a>
                     </li>
                     <li>
                       <p className="text-muted text-[12px]">Alliances</p>
-                      <a href="mailto:alliances@emagia.com" className="hover:text-cyan transition-colors">
-                        alliances@emagia.com
+                      <a href="mailto:info@risesitelab.com" className="hover:text-cyan transition-colors">
+                        info@risesitelab.com
                       </a>
                     </li>
                     <li>

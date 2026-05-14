@@ -1,0 +1,97 @@
+To:       veena.gundavelli@emagia.com
+From:     sergiu.manole2@gmail.com
+Reply-To: sergiu.manole2@gmail.com
+Subject:  Your Emagia redesign demo is live — emagia.risesitelab.com
+
+------------------------------------------------------------
+
+Veena,
+
+Following up on the note from earlier this week — the redesign demo is up:
+
+  https://emagia.risesitelab.com
+
+It's a private working build, not slides. Walk it end-to-end on desktop
+or mobile. 15 pages, every link works, the contact form submits.
+
+
+WHAT THE REDESIGN ANSWERS (the three audit findings)
+
+  • Outcome-first positioning.
+    The hero leads with "Cut DSO by 14 days. Automate 98% of cash
+    application." — the P&L number a CFO is scanning for, not the
+    platform category. The seven-agent Gia grid moved below the fold,
+    where it belongs.
+
+  • Enterprise proof above the fold.
+    A 3-KPI tile ($8B+ AR processed annually / 14-day average DSO
+    reduction / 98% cash-application automation) sits immediately under
+    the hero, followed by an infinite-loop marquee of 12 Fortune-500
+    customer logos (Staples, Cognizant, ConvaTec, Xylem, CooperVision,
+    The Honest Company, WNS, Seko, Unisys, AHA, Dresser-Rand, Brother)
+    and one executive quote. A scanning CFO decides whether to keep
+    reading in 8 seconds, not 30.
+
+  • Multi-intent conversion flow.
+    Two-tier CTA on every page — primary "Book Strategy Call" + low-
+    friction "Watch 90-Second Tour". The homepage adds a working DSO
+    impact calculator so the researcher-stage visitor who isn't yet
+    demo-ready still has somewhere to convert.
+
+
+TECHNICAL WORK IN THE SAME PASS — semantic HTML + SEO
+
+  • Semantic structure across all 15 routes — header / nav / main /
+    section / article / aside / address / figure / blockquote / footer.
+    Exactly one h1 per page. Descriptive alt text on every image.
+    Below-the-fold images lazy-loaded with explicit width and height
+    to eliminate layout shift.
+
+  • Search-engine signal stack — JSON-LD SoftwareApplication schema,
+    canonical URLs, Open Graph + Twitter card meta, robots-friendly
+    URL structure, all set per-route by a single SEO hook.
+
+  • Accessibility built in — visible focus rings, skip-to-content link
+    on every page, ARIA labels on every region, prefers-reduced-motion
+    honored, color contrast and keyboard navigation verified.
+
+  • Performance — Cloudflare's global edge, HTTPS-only, 423 kB JS /
+    132 kB gzip total budget, no third-party trackers. Mobile parity
+    verified at 390 px viewport.
+
+  • Real working pieces, not stubs — the contact form already routes
+    to a delivery endpoint, the DSO calculator computes on three real
+    inputs, the marquee uses your actual customer logos pulled from
+    the live site.
+
+
+THE FIFTEEN PAGES IN THE DEMO
+
+  Home · Products overview · Gia Agent Network · Cash Application ·
+  Collections · Industries overview · Manufacturing · Healthcare ·
+  Customers · Partners · Company · Resources / Blog · Contact ·
+  Privacy Policy · Terms of Service.
+
+  All 15 reachable from the nav. All 15 return HTTP 200. The blog
+  index uses editorial placeholders so the section feels active
+  without committing to articles that don't exist yet.
+
+
+IF YOU LIKE THE DIRECTION
+
+We're ready to take it the rest of the way — full production rebuild
+on emagia.com, any copy or structural changes you want implemented,
+the ROI calculator tuned against your real customer benchmarks, plus
+a plan for which of the 60+ existing pages to keep, retire, or
+rebuild. Whatever changes you specify, we'll build.
+
+Take your time and watch the demo first — no rush, no obligations.
+Then simply reply to this email or WhatsApp +32 471 72 50 86.
+
+Sincerely,
+
+Sergiu Manole
+GrowthSite Lab
+https://risesitelab.com
+sergiu.manole2@gmail.com
+WhatsApp: +32 471 72 50 86

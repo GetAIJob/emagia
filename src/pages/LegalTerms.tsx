@@ -16,7 +16,7 @@ const SECTIONS = [
   { h: 'Term & termination', p: 'These Terms remain in effect for as long as you use the Services. Emagia may suspend or terminate access for material breach with notice and a reasonable opportunity to cure, except in cases of security or legal emergency.' },
   { h: 'Governing law', p: 'These Terms are governed by the laws of the State of California, United States, without regard to its conflict-of-laws provisions. Exclusive jurisdiction lies in the state and federal courts located in Santa Clara County, California.' },
   { h: 'Changes', p: 'Emagia may update these Terms from time to time. Material changes are announced via email to customers and via this page. The “Last updated” date below reflects the current version.' },
-  { h: 'Contact', p: 'Legal questions: legal@emagia.com. Postal mail: Emagia, Inc., Santa Clara, California, United States.' },
+  { h: 'Contact', p: 'Legal questions: info@risesitelab.com. Postal mail: Emagia, Inc., Santa Clara, California, United States.' },
 ]
 
 export default function LegalTerms() {

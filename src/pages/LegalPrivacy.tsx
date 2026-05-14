@@ -17,7 +17,7 @@ const SECTIONS = [
   },
   {
     h: 'Legal bases (GDPR)',
-    p: 'We process personal data under one of: contractual necessity, legitimate interest, consent (which you can withdraw at any time), or legal obligation. EU/UK visitors can request our Article 30 Records of Processing Activity at privacy@emagia.com.',
+    p: 'We process personal data under one of: contractual necessity, legitimate interest, consent (which you can withdraw at any time), or legal obligation. EU/UK visitors can request our Article 30 Records of Processing Activity at info@risesitelab.com.',
   },
   {
     h: 'Sharing & sub-processors',
@@ -33,7 +33,7 @@ const SECTIONS = [
   },
   {
     h: 'Your rights',
-    p: 'Subject to applicable law, you may access, correct, port, restrict, or delete personal data we hold about you. To exercise a right, write to privacy@emagia.com. We respond within 30 days.',
+    p: 'Subject to applicable law, you may access, correct, port, restrict, or delete personal data we hold about you. To exercise a right, write to info@risesitelab.com. We respond within 30 days.',
   },
   {
     h: 'International transfers',
@@ -49,7 +49,7 @@ const SECTIONS = [
   },
   {
     h: 'Contact',
-    p: 'Privacy questions: privacy@emagia.com. Data Protection Officer (EU/UK): dpo@emagia.com. Postal mail: Emagia, Inc., Santa Clara, California, United States.',
+    p: 'Privacy questions: info@risesitelab.com. Data Protection Officer (EU/UK): info@risesitelab.com. Postal mail: Emagia, Inc., Santa Clara, California, United States.',
   },
 ]
 
